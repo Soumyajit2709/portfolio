@@ -270,7 +270,7 @@ function App() {
                         University of Engineering and Management, Kolkata
                       </a>
                     </div>
-                    <p className="text-gray-600">Jul 2019 - May 2023</p>
+                    <p className="text-gray-600">Jul 2019 - Jun 2023</p>
                   </div>
                   <ul className="mt-4 text-gray-600 list-disc list-inside space-y-2">
                     <li>GPA: 9.57/10</li>
@@ -317,7 +317,7 @@ function App() {
                           </a>
                           </p>
                     </div>
-                    <p className="text-gray-600">Jun 2024 - Present</p>
+                    <p className="text-gray-600">Jun 2024 - May 2025</p>
                   </div>
                   <ul className="mt-4 text-gray-600 list-disc list-inside space-y-2">
                     <li>Designing KAN-based architectures to replace traditional MLP layers in VLMs(PaliGemma2, Gemma3) for better feature representation.</li>
@@ -352,7 +352,7 @@ function App() {
                           </p>
                     </div>
                     
-                    <p className="text-gray-600">Jun 2021 - May 2023</p>
+                    <p className="text-gray-600">Jun 2021 - Jun 2023</p>
                   </div>
                   <ul className="mt-4 text-gray-600 list-disc list-inside space-y-2">
                     <li>Resolved imbalanced classification challenges in machine learning, boosting model performance 
@@ -585,7 +585,7 @@ function App() {
               <h3 className="text-xl font-semibold text-gray-900 mb-6">Preview Resume</h3>
               <div className="aspect-[8.5/11] bg-gray-100 rounded-lg overflow-hidden mb-4">
                 {showResumePreview ? (
-                  <iframe src="https://drive.google.com/file/d/1C3DqgYFB6B0mkT60PqUzqDn-4L2OwakJ/preview" 
+                  <iframe src="https://drive.google.com/file/d/1ITHI-kvcIngD81YPiiWO_VIZLdEitSuR/preview" 
                   width="480" height="640" allow="autoplay"></iframe>
                 ) : (
                   <div className="w-full h-full flex items-center justify-center">
@@ -604,7 +604,7 @@ function App() {
               <h3 className="text-xl font-semibold text-gray-900 mb-6">Download Options</h3>
               <div className="space-y-4">
                 <a
-                  href="https://drive.google.com/uc?export=download&id=1C3DqgYFB6B0mkT60PqUzqDn-4L2OwakJ"
+                  href="https://drive.google.com/uc?export=download&id=1ITHI-kvcIngD81YPiiWO_VIZLdEitSuR"
                   download="Soumyajit_Maity_Resume.pdf"
                   className="flex items-center justify-center space-x-2 w-full px-6 py-3 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors"
                 >
@@ -654,7 +654,7 @@ function App() {
                   LinkedIn
                 </a>
                 <a
-                  href="https://drive.google.com/uc?export=download&id=1C3DqgYFB6B0mkT60PqUzqDn-4L2OwakJ"
+                  href="https://drive.google.com/uc?export=download&id=1ITHI-kvcIngD81YPiiWO_VIZLdEitSuR"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center text-gray-600 hover:text-blue-600"
