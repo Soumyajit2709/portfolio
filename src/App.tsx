@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { Menu, X, Github, Linkedin, Mail, FileText, ChevronDown, Download, Eye, Award, Trophy, Star } from 'lucide-react';
+import { Menu, X, Github, Linkedin, Mail, FileText, ChevronDown, Download, Eye, Award, Trophy, Star, GraduationCap } from 'lucide-react';
 import emailjs from 'emailjs-com';
 
 function App() {
@@ -158,7 +158,7 @@ function App() {
             Hi! I am Soumyajit
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-12 fade-up">
-            Software Engineer | Machine Learning Engineer
+            PhD Student @ University of Texas at Arlington | Quantum Machine Learning Researcher in Climate, Geological, and Environmental Data
           </p>
           <div className="flex justify-center space-x-4 fade-up">
             <a
@@ -186,24 +186,16 @@ function App() {
           <h2 className="text-3xl font-semibold tracking-tight text-gray-900 mb-8 fade-up">About Me</h2>
           <div className="prose prose-lg max-w-none text-gray-600">
             <p className="mb-6 fade-up">
-            I am Soumyajit Maity, a aspiring software engineer dedicated to advancing AI for real-world impact. 
-            Currently pursuing my Masters in Computer Science at the University of Texas at Arlington, I 
-            specialize in machine learning, computer vision, and AI interpretability, particularly in the 
-            medical domain. My research focuses on enhancing the robustness and interpretability of Vision-Language 
-            Models (VLMs) for medical imaging, integrating deep learning with domain-specific knowledge to improve 
-            diagnostic accuracy and trustworthiness.
+            I am Soumyajit Maity, currently pursuing a PhD specializing in Quantum Machine Learning at the 
+            University of Texas at Arlington. My research integrates quantum kernel-based models with environmental, 
+            geological, and climate data to advance AI predictive accuracy.
             </p>
             <p className="mb-6 fade-up">
-              With expertise in machine learning, deep learning, and software development, I specialize
-              in frameworks like TensorFlow, PyTorch, and OpenCV. My research encompasses multimodal
-              learning, transfer learning, domain adaptation, and explainable AI, ensuring that our
-              models are both powerful and trustworthy in clinical settings. I am also actively involved in 
-              open-source contributions, hackathons, and collaborative projects that push the boundaries of AI innovation.
-            </p>
-            <p className="fade-up">
-              Beyond research, I bring hands-on experience in developing software applications,
-              including mobile apps and cloud solutions. I thrive on interdisciplinary collaboration,
-              merging AI, healthcare, and software engineering to create meaningful impact.
+              I have expertise in quantum computing frameworks such as Qiskit, IBM Quantum, along with classical 
+              machine learning libraries including TensorFlow and PyTorch. My work focuses on hybrid quantum-classical 
+              architectures for applications like subsurface reservoir discovery, climate forecasting, and medical image 
+              analysis. I am also actively involved in open-source contributions, hackathons, and collaborative projects 
+              that push the boundaries of AI innovation.
             </p>
           </div>
         </div>
@@ -226,6 +218,35 @@ function App() {
                 <div className="flex-1">
                   <div className="flex justify-between items-start">
                     <div>
+                      <h3 className="text-xl font-semibold text-gray-900">Doctor of Philosophy (PhD) specializing in Quantum Machine Learning</h3>
+                      <a 
+                        href="https://www.uta.edu/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 hover:text-blue-800"
+                      >
+                        University of Texas at Arlington
+                      </a>
+                      <p className="fade-up"></p>
+                    </div>
+                    <p className="text-gray-600">Aug 2025 - Present</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-xl shadow-md p-8 transform hover:scale-105 transition-transform">
+              <div className="flex items-start space-x-6">
+                <div className="w-32 h-32 flex-shrink-0 bg-white rounded-lg overflow-hidden">
+                  <img
+                    src="https://resources.uta.edu/mme/identity/_images/new-logos/new-initials-logo.jpg"
+                    alt="UTA Logo"
+                    className="w-full h-full object-contain p-2"
+                  />
+                </div>
+                <div className="flex-1">
+                  <div className="flex justify-between items-start">
+                    <div>
                       <h3 className="text-xl font-semibold text-gray-900">Master of Science in Computer Science</h3>
                       <a 
                         href="https://www.uta.edu/academics/schools-colleges/engineering/academics/departments/cse"
@@ -236,8 +257,8 @@ function App() {
                         University of Texas at Arlington
                       </a>
                       <p className="fade-up">
-                      Specialization in Machine Learning and Software Engineering.
-                    </p>
+                        Specialization in Machine Learning and Software Engineering.
+                      </p>
                     </div>
                     <p className="text-gray-600">Aug 2023 - May 2025</p>
                   </div>
@@ -251,13 +272,13 @@ function App() {
             <div className="bg-white rounded-xl shadow-md p-8 transform hover:scale-105 transition-transform">
               <div className="flex items-start space-x-6">
                 <div className="w-32 h-32 flex-shrink-0 bg-white rounded-lg overflow-hidden">
-                    <img
-                      src="https://uem.edu.in/app/themes/iem-group-new-wp-theme/resources/images/UEM-Logo.png"
-                      alt="UEM Kolkata"
-                      className="w-24 h-24 rounded-lg object-cover"
-                    />
-                  </div>
-                  <div className="flex-1">
+                  <img
+                    src="https://uem.edu.in/app/themes/iem-group-new-wp-theme/resources/images/UEM-Logo.png"
+                    alt="UEM Kolkata"
+                    className="w-24 h-24 rounded-lg object-cover"
+                  />
+                </div>
+                <div className="flex-1">
                   <div className="flex justify-between items-start">
                     <div>
                       <h3 className="text-xl font-semibold text-gray-900">Bachelor of Technology in Computer Science</h3>
@@ -274,7 +295,7 @@ function App() {
                   </div>
                   <ul className="mt-4 text-gray-600 list-disc list-inside space-y-2">
                     <li>GPA: 9.57/10</li>
-                    </ul>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -297,32 +318,73 @@ function App() {
                 <div className="flex-1">
                   <div className="flex justify-between items-start">
                     <div>
-                      <h3 className="text-xl font-semibold text-gray-900">Student Researcher</h3>
+                      <h3 className="text-xl font-semibold text-gray-900">Graduate Research Assistant</h3>
                       <a 
                           href="https://cihi.uta.edu/about/student-research-assistants/"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-blue-600 hover:text-blue-800 block"
                         >
-                          Luber Lab - University of Texas at Arlington
+                          University of Texas at Arlington
                         </a>
                         <p className="text-sm text-gray-600">
                           Supervisor: <a 
-                            href="https://www.uta.edu/academics/faculty/profile?user=jacob.luber"
+                            href="https://www.uta.edu/academics/faculty/profile?user=ghanbarianb"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-blue-600 hover:text-blue-800"
                           >
-                            Dr. Jacob Luber
+                            Dr. Behzad Ghanbarian
                           </a>
                           </p>
+                    </div>
+                    <p className="text-gray-600">Aug 2025 - Present</p>
+                  </div>
+                  <ul className="mt-4 text-gray-600 list-disc list-inside space-y-2">
+                    <li>Designed and implemented quantum kernel autoencoder models for climate and geological data analysis using Qiskit, IBM Quantum, TensorFlow, and PyTorch.</li>
+                    <li>Developed quantum kernel-based classification methods to enhance subsurface reservoir detection for oil and gas exploration, integrating geological datasets to improve hydrocarbon reservoir identification.</li>
+                    <li>Delivered quantum-classical hybrid models improving performance for environmental and energy sector forecasting.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gray-50 rounded-xl shadow-md p-8 transform hover:scale-105 transition-transform">
+              <div className="flex items-start space-x-6">
+                <img
+                  src="https://luberlab.org/images/activities/23.jpg"
+                  alt="UTA AI Lab"
+                  className="w-24 h-24 rounded-lg object-cover"
+                />
+                <div className="flex-1">
+                  <div className="flex justify-between items-start">
+                    <div>
+                      <h3 className="text-xl font-semibold text-gray-900">Student Researcher</h3>
+                      <a 
+                        href="https://cihi.uta.edu/about/student-research-assistants/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 hover:text-blue-800 block"
+                      >
+                        Luber Lab - University of Texas at Arlington
+                      </a>
+                      <p className="text-sm text-gray-600">
+                        Supervisor: <a 
+                          href="https://www.uta.edu/academics/faculty/profile?user=jacob.luber"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-600 hover:text-blue-800"
+                        >
+                          Dr. Jacob Luber
+                        </a>
+                      </p>
                     </div>
                     <p className="text-gray-600">Jun 2024 - May 2025</p>
                   </div>
                   <ul className="mt-4 text-gray-600 list-disc list-inside space-y-2">
-                    <li>Designing KAN-based architectures to replace traditional MLP layers in VLMs(PaliGemma2, Gemma3) for better feature representation.</li>
-                    <li>Improving interpretability and trustworthiness of AI models by enabling clearer decision pathways.</li>
-                    <li>Conducting extensive experiments and validation to assess performance improvements across various pathological datasets.</li>
+                    <li>Developed and fine-tuned Kolmogorov-Arnold Networks (KAN) based architectures to replace traditional MLP layers in Vision Language Models (PaliGemma2, Gemma3) for enhanced feature extraction and interpretability.</li>
+                    <li>Enhanced interpretability and trustworthiness of AI models in pathological image analysis, improving diagnostic precision by 20%.</li>
+                    <li>Conducted extensive experiments and validation on pathological datasets.</li>
                   </ul>
                 </div>
               </div>
@@ -338,30 +400,25 @@ function App() {
                 <div className="flex-1">
                   <div className="flex justify-between items-start">
                     <div>
-                      <h3 className="text-xl font-semibold text-gray-900">Undergraduate Student Researcher</h3>
+                      <h3 className="text-xl font-semibold text-gray-900">Undergraduate Research Assistant</h3>
                       <p className="text-blue-600">University of Engineering and Management, Kolkata</p>
                       <p className="text-sm text-gray-600">
-                          Supervisor: <a 
-                            href="https://www.linkedin.com/in/sankhadeep-chatterjee-7393b384"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-blue-600 hover:text-blue-800"
-                          >
-                            Dr. Sankhadeep Chatterjee
-                          </a>
-                          </p>
+                        Supervisor: <a 
+                          href="https://www.linkedin.com/in/sankhadeep-chatterjee-7393b384"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-600 hover:text-blue-800"
+                        >
+                          Dr. Sankhadeep Chatterjee
+                        </a>
+                      </p>
                     </div>
-                    
                     <p className="text-gray-600">Jun 2021 - Jun 2023</p>
                   </div>
                   <ul className="mt-4 text-gray-600 list-disc list-inside space-y-2">
-                    <li>Resolved imbalanced classification challenges in machine learning, boosting model performance 
-                      from 70% to 98%.</li>
-                    <li>Spearheaded bioinformatics research, developing COVID-19 detection models from chest 
-                      X-ray images and Alzheimer’s detection models from brain MRI images, achieving almost 
-                      99% detection accuracy.</li>
-                    <li>Fine-tuning deep learning architectures (CNNs, Transformers, Autoencoders) to improve feature extraction 
-                      and representation in skewed datasets.</li>
+                    <li>Addressed imbalanced classification challenges, improving model accuracy from 70% to 98%.</li>
+                    <li>Led bioinformatics research by developing COVID-19 detection models from chest X-rays and Alzheimer’s detection models from brain MRIs with near 99% accuracy.</li>
+                    <li>Applied CNNs, Transformers, and Autoencoder architectures to enhance feature extraction in skewed datasets.</li>
                   </ul>
                 </div>
               </div>
@@ -377,6 +434,15 @@ function App() {
           <h2 className="text-3xl font-bold text-gray-900 mb-12">Featured Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
+              {
+                title: "Quantum Kernel Classification for Oil and Gas Exploration",
+                description: [
+                  "Developed quantum kernel-based SVM and quantum neural network classifiers to distinguish oil, gas, and water layers in subsurface logging data.",
+                  "Improved hydrocarbon reservoir identification accuracy by 60% over classical methods by leveraging quantum feature mapping and kernel matrix computations.",
+                  "Technologies: Python, Qiskit, IBM Quantum"
+                ],
+                image: "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41598-025-95897-9/MediaObjects/41598_2025_95897_Fig5_HTML.png"
+              },
               {
                 title: "Abnormality detection in pathological images by fine-tuning Paligemma2 using Kolmogorov-Arnold Networks (KAN). ",
                 description: ["Fine-tuned Google PaliGemma2 using Kolmogorov-Arnold Networks (KAN) to enhance abnormality detection in pathological images, improving model interpretability and diagnostic precision. ",
@@ -394,18 +460,6 @@ function App() {
                   "Utilized Python, PyTorch, KAN, and Google Gemma3 to optimize model transparency and decision-making. "
                 ],
                 image: "https://the-decoder.com/wp-content/uploads/2025/03/google_gemma_logo.png",
-              },
-              {
-                title: "Mav Wallet - E-Wallet App",
-                description: [
-                  "MAV Wallet is a secure and user-friendly Android-based e-wallet application designed to streamline digital transactions with enhanced security and convenience.",
-                  "Built using Android Studio and Firebase, it offers seamless payment solutions, transaction tracking, and robust authentication measures.",
-                  "Supports real-time balance updates, peer-to-peer transfers, and integrated financial management tools to simplify personal and business transactions.",
-                  "Implemented with JUnit and Espresso for rigorous testing, ensuring a smooth and reliable user experience."
-                ],
-                
-                image: "https://raw.githubusercontent.com/Soumyajit2709/Mav-Wallet/refs/heads/master/app/src/main/ic_launcher-playstore.png",
-                github: "https://github.com/Soumyajit2709/Mav-Wallet"
               },
               {
                 title: "An Approach to Classify Astronomical Objects Using Imbalanced Sloan Digital Sky Survey Data",
@@ -585,7 +639,7 @@ function App() {
               <h3 className="text-xl font-semibold text-gray-900 mb-6">Preview Resume</h3>
               <div className="aspect-[8.5/11] bg-gray-100 rounded-lg overflow-hidden mb-4">
                 {showResumePreview ? (
-                  <iframe src="https://drive.google.com/file/d/1ITHI-kvcIngD81YPiiWO_VIZLdEitSuR/preview" 
+                  <iframe src="https://drive.google.com/file/d/1fmPYOLJghoIXf9FbmvPT_bIFWlZGisat/preview" 
                   width="480" height="640" allow="autoplay"></iframe>
                 ) : (
                   <div className="w-full h-full flex items-center justify-center">
@@ -604,7 +658,7 @@ function App() {
               <h3 className="text-xl font-semibold text-gray-900 mb-6">Download Options</h3>
               <div className="space-y-4">
                 <a
-                  href="https://drive.google.com/uc?export=download&id=1ITHI-kvcIngD81YPiiWO_VIZLdEitSuR"
+                  href="https://drive.google.com/uc?export=download&id=1fmPYOLJghoIXf9FbmvPT_bIFWlZGisat"
                   download="Soumyajit_Maity_Resume.pdf"
                   className="flex items-center justify-center space-x-2 w-full px-6 py-3 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors"
                 >
@@ -636,13 +690,13 @@ function App() {
                   soumyajitmaity2709@gmail.com
                 </a>
                 <a
-                  href="https://github.com/soumyajit2709"
+                  href="https://scholar.google.com/citations?user=62CJkKEAAAAJ&hl=en"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center text-gray-600 hover:text-blue-600"
                 >
-                  <Github className="w-5 h-5 mr-3"/>
-                  GitHub
+                  <GraduationCap className="w-5 h-5 mr-3"/>
+                  Google Scholar
                 </a>
                 <a
                   href="https://www.linkedin.com/in/soumyajit2709/"
@@ -654,7 +708,7 @@ function App() {
                   LinkedIn
                 </a>
                 <a
-                  href="https://drive.google.com/uc?export=download&id=1ITHI-kvcIngD81YPiiWO_VIZLdEitSuR"
+                  href="https://drive.google.com/uc?export=download&id=1fmPYOLJghoIXf9FbmvPT_bIFWlZGisat"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center text-gray-600 hover:text-blue-600"
